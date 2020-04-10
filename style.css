@@ -1,0 +1,470 @@
+body{
+    font-family: 'Poppins' , sans-serif;
+    margin: 0;
+    display: block;
+
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/fruit.jpg);
+    background-position: left;
+    background-size: cover;
+}
+nav{
+    background-color: white;
+    width: 100%;
+    height: 77px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 28px;
+    box-sizing: border-box;
+    position: fixed;
+}
+#logo{
+    width: 40px;
+}
+.nav-item{
+    color: black;
+    font-weight: 600;
+    font-size: 16px;
+    margin-right: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    outline: none;
+}
+.btn{
+    font-size: 12px;
+    font-weight: 600;
+    color: white;
+    background-color: #ee8972;
+    padding: 9px 34px;
+    text-transform: uppercase;
+    border: 0;
+    border-radius: 6px;
+    margin-right: 16px;
+    cursor: pointer; 
+    outline: none;
+    opacity: 0.8;
+    transition-duration: 0.4s;
+}
+.btn:hover{
+    color: black;
+    opacity: 1;
+}
+main{
+    display: block;
+}
+section{
+    display: block;
+}
+#section1{
+    width: 100%;
+    height: 100vh;
+}
+#text-wrap{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#text-wrap h1{
+    color: white;
+    width: 100%;
+    max-width: 1100px;
+    font-size: 44px;
+    font-weight: 600;
+    letter-spacing: 8.8px;
+    line-height: 1.2;
+    text-align: center;
+    margin: 0;
+}
+#text-wrap p{
+    width: 100%;
+    max-width: 1100px;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+    padding-top: 32px;
+}
+#section2{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+}
+#first{
+    background-color: #ffb2a7;
+}
+#second{
+    background-color: #e6739f;
+}
+#third{
+    background-color:#cc0e74;
+}
+#fourth{
+    background-color: #790c5a;
+}
+.process {
+    width: 25%;
+    padding: 112px 48px;
+    text-align: center;
+    color: white;
+    box-sizing: border-box;
+}
+.process h3{
+    font-weight: 600;
+    font-size: 24px;
+}
+.process p {
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    line-height: 1.6;
+    margin-top: 0;
+}
+#section3 {
+    width: 100%;
+    background-color: #f7eee2;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    text-align: center;
+}
+#fresh{
+    color: #ee8972;
+    font-size: 24px;
+    font-family: 'Caveat', cursive;
+    margin: 0;
+    margin-top: 35px;
+}    
+#section3 > h3{
+    font-size: 44px;
+    font-weight: 600;
+    margin: 0;
+    margin-bottom: 8px;
+}
+#story{
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0;
+    color: #8b8b99;
+    letter-spacing: 0.5px;
+    margin-bottom: 55px;
+}
+#fruits-store-wrap{
+    width: 100%;
+    max-width: 1140px;
+    display: flex;
+    justify-content: stretch;
+    margin: 0 auto;
+}
+.fruits-store{
+    text-align: center;
+    padding: 24px;
+}
+.fruits-store h3{
+    font-size: 24px;
+    font-weight: 600;
+}
+.fruits-store p{
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+    color: #8b8b99;
+}
+#section4{
+    display: flex;
+    justify-content: stretch;
+}
+#left {
+    width: 66%;
+    display: inline-block;
+    margin: 0;
+}
+#left img{
+    width: 100%;
+}
+#right{
+    width: 34%;
+    margin: 0;
+    display: inline-block;
+    background-image: url(images/straw2.png);
+    background-position: left;
+    background-size: cover;
+}
+#right #text-wraps{
+    margin: 115px;
+}
+#right #text-wraps h3 {
+    font-size: 44px;
+    font-weight: 600;
+    margin: 0 0 8px;
+}
+#right #text-wraps p {
+    color: #8b8b99;
+    font-size: 16px;
+    letter-spacing: 0.5;
+    line-height: 1.6;
+    margin: 0;
+}
+input {
+    font-family: 'Poppins', sans-serif;
+    outline: none;
+}
+#email{
+    width: 100%;
+    box-sizing: border-box;
+    border: 0;
+    border-radius: 4px;
+    font-weight: 500;
+    background-color: white;
+    padding: 12px;
+    color: #8b8b99;
+    font-size: 14px;
+    margin-top: 60px;
+    display: block;
+}
+#btn-sub{
+    background-color: #ee8972;
+    padding: 16px 42px;
+    border-radius: 6px;
+    cursor: pointer;
+    color: white;
+    border: 0;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 16px;
+    outline: none;
+    opacity:0.9;
+    transition-duration: 0.4s;
+}
+#btn-sub:hover{
+    color: black;
+    opacity: 1;
+}
+
+#section5 {
+    width: 100%;
+    background-color: #f4f4f4;
+}
+#status-wrap {
+    width: 100%;
+    max-width: 1140px;
+    padding: 100px 0;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    justify-content: stretch;
+}
+.status{
+    width: 25%;
+    padding: 0 64px;
+}
+.status h3{
+    font-size: 44px;
+    font-weight: 600;
+    margin: 0;
+}
+.status p {
+    color: #f7d695;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    font-style: italic;
+    margin: 0;
+}
+#address-wrap {
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 0;
+}
+#address-wrap > div {
+    width: 50%;
+}
+.heading {
+    color: #ac8141;
+    font-size: 24px;
+    font-family: 'Caveat', cursive;
+    margin: 0;
+    margin-top: 35px;
+}
+.section-heading {
+    font-size: 600;
+    font-size: 44px;
+    margin: 0;
+}
+.section-stories {
+    font-size: 16px;
+    font-weight: 400;
+    color: black;
+    letter-spacing: 0.5px;
+}
+.address-heading {
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0;
+    margin-top: 32px;
+}
+.address-stories {
+    font-size: 16px;
+    font-weight: 400;
+    color: black;
+    letter-spacing: 0.5px;
+    line-height: 2;
+    margin: 0;
+}
+.address-wrap > div:last-of-type {
+    width: 40%;
+}
+form {
+    display: block;
+    margin-top: 0em;
+}
+.input-t {
+    width: 100%;
+    padding: 16px;
+    font-size: 16px;
+    color: #8b8b99;
+    border-radius: 6px;
+    border: 1px solid #e5e6ec;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+#submit{
+    font-size: 16px;
+}
+.btns{
+    font-size: 12px;
+    font-weight: 600;
+    color: white;
+    background-color: #ee8972;
+    padding: 9px 34px;
+    text-transform: uppercase;
+    border: 0;
+    opacity: 0.9;
+    border-radius: 4px;
+    margin-right: 16px;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+.btns:hover{
+    opacity:1;
+    color: black;
+}
+
+footer {
+    background-color: #5b5656;
+    color: white;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    padding: 30px 0px;
+}
+
+@media (max-width: 900px){
+    .nav-item{
+    display: none;
+}
+}
+
+@media (max-width: 900px){
+    .btn {
+        margin-right: 0;
+    }
+}
+@media (max-width: 900px){
+    #text-wrap > h1 {
+        font-size: 28px;
+    }
+}
+@media (max-width: 900px){
+    #text-wrap > p {
+        padding: 16px;
+        box-sizing: border-box;
+    }
+}
+@media (max-width: 900px){
+#section2 {
+    width: 100%;
+    flex-direction: column;
+}
+}
+@media (max-width: 900px)
+{
+    .process {
+    width: 100%;
+}
+}
+@media (max-width: 900px)
+{ #section3
+    {
+        padding: 16px;
+        box-sizing: border-box;
+    }
+} 
+@media (max-width: 900px){
+#fruits-store-wrap {
+    flex-direction: column;
+    text-align: center;
+}
+}
+@media (max-width: 900px){
+.fruits-store {
+    width: 100%;
+    box-sizing: border-box;
+}
+}
+@media (max-width: 900px){
+    #section4 {
+        flex-direction: column;
+    }
+}
+@media (max-width: 900px){
+#left, #right{
+    width: 100%;
+}
+}
+@media (max-width: 900px){
+    #right #text-wraps {
+        margin: 16px;
+    }
+}
+@media (max-width: 900px){
+    #right #text-wraps h3 {
+        font-size: 28px;
+    }
+}
+@media (max-width: 900px){
+    #status-wrap {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media (max-width: 900px){
+#address-wrap {
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    padding: 16px;
+    padding-top: 0;
+    box-sizing: border-box;
+}
+}
+@media (max-width: 900px){
+#address-wrap > div {
+    width: 100%;
+}
+}
+@media (max-width: 900px){
+#address-wrap > div:last-of-type {
+    width: 100%;
+}
+}
