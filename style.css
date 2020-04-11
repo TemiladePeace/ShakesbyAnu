@@ -297,23 +297,23 @@ input {
 }
 .section-heading {
     font-size: 600;
-    font-size: 44px;
+    font-size: 30px;
     margin: 0;
 }
 .section-stories {
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 400;
     color: black;
     letter-spacing: 0.5px;
 }
 .address-heading {
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 600;
     margin: 0;
     margin-top: 32px;
 }
 .address-stories {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 400;
     color: black;
     letter-spacing: 0.5px;
